@@ -1,8 +1,8 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import ProductsPage from './pages/ProductPage'
-import ProductDetailPage from './pages/ProductDetailPage'
-import NotFoundPage from './pages/NotFoundPage'
+import ProductsPage from './pages/ProductPage.jsx'
+import ProductDetailPage from './pages/ProductDetailPage.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 
 const App = () => (
 	<Routes>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import StarRating from '../components/StarRating'
+import StarRating from '../components/StarRating.jsx'
 
 const ProductDetailPage = () => {
 	const { id } = useParams()
